@@ -140,7 +140,7 @@ public class BenutzerState implements evPlanState {
     }
 
     private void editMitglied() {
-        System.out.print("ID des MitgMitgliedes?: ");
+        System.out.print("ID des Mitgliedes?: ");
         try {
             String sid = System.console().readLine();
             int id = Integer.parseInt(sid);
